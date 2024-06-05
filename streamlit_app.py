@@ -27,7 +27,7 @@ st.markdown(
 )
 
 def main():
-    st.write("Is this your first time using the app?")
+    st.write("Been here before?")
 
     col1, col2, col3, col4 = st.columns(4)
     yes_button = col2.button("Yes!")
