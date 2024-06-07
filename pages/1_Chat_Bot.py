@@ -46,6 +46,7 @@ def main():
     dec_dict = enc.decode_dict_keys()
 
     if username in dec_dict:
+        st.write("Press the below button if you want to forget the conversation and have a fresh start:")
         init_button = st.button("Initiate Tutor")
         #print("before:", conf.DATA_DICT)
         prompt_2 = st.chat_input("Say Something")
